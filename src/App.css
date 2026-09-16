@@ -86,6 +86,11 @@ h2 { font-size: clamp(42px, 4.6vw, 58px); }
 .search-form button:hover { background: var(--orange); }
 .search-form button span { color: #f4b49e; }
 .search-icon { font-size: 23px; margin-right: 12px; }
+.language-tabs { display: flex; align-items: center; gap: 8px; margin: -12px 0 30px; overflow-x: auto; scrollbar-width: none; }
+.language-tabs::-webkit-scrollbar { display: none; }
+.language-tab { border: 1px solid var(--line); border-radius: 100px; background: transparent; color: var(--muted); padding: 9px 15px; cursor: pointer; white-space: nowrap; font-size: 11px; transition: background .2s, border-color .2s, color .2s; }
+.language-tab:hover { border-color: var(--orange); color: var(--orange); }
+.language-tab.active { border-color: var(--ink); background: var(--ink); color: var(--paper); }
 .result-row { padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .movie-grid { gap: 36px 20px; }
 .movie-card { transition: transform .25s ease; }
