@@ -1,16 +1,59 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Movie Explorer
 
-Currently, two official plugins are available:
+Discover memorable stories from Bengali, Tamil, Hindi, and English cinema in a clean, responsive movie catalogue.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p>
+	<a href="#features">Features</a> ·
+	<a href="#getting-started">Getting Started</a> ·
+	<a href="#project-structure">Project Structure</a>
+</p>
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the Oxlint configuration
+Movie Explorer is a responsive React movie discovery experience designed for browsing, filtering, searching, and exploring movie details. The catalogue contains 60 curated movies across four language collections:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Bengali
+- Tamil
+- Hindi
+- English
+
+The interface is designed with a premium editorial feel, responsive layouts, smooth scrolling, sticky navigation, and a dedicated details page for every movie.
+
+## Features
+
+- Responsive home page with hero section and featured movie
+- Sticky glass-style navigation bar
+- 60 curated movies with 15 titles per language
+- Language filters for All, Bengali, Tamil, Hindi, and English
+- Title-based search
+- Pagination with 12 movie cards per page
+- Premium movie cards with poster, rating, year, genre, and type
+- Dedicated movie details page
+- Official movie page links where available
+- Responsive design for mobile, tablet, and desktop
+- Loading, empty, and error states
+- Smooth anchor scrolling and back-to-top navigation
+- Custom Movie Explorer favicon
+
+## Tech Stack
+
+- React 19
+- JavaScript
+- Vite
+- CSS
+- TVMaze-inspired movie catalogue data
+- Google Fonts: DM Sans
+
+## User Flow
+
+1. Open the home page and explore the featured movie.
+2. Scroll to the catalogue section.
+3. Choose a language collection or browse all movies.
+4. Search for a movie by title.
+5. Move through the catalogue using pagination.
+6. Select **See details** to open the dedicated movie details page.
+7. Return to the catalogue using the back button or navigation bar.
